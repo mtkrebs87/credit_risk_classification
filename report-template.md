@@ -22,7 +22,8 @@ In this section, describe the analysis you completed for the machine learning mo
 
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
-        We used Logistic Regression for our model by using the training data. This smaller set of data gave us our first batch of results. After, we oversampled the data using the RandomOverSampler module from the imbalanced-learn library to get extra data to compare against the original training data.
+        We used Logistic Regression for our model by using the training data. This smaller set of data gave us our first batch of results.   
+        After, we oversampled the data using the RandomOverSampler module from the imbalanced-learn library to get extra data to compare against the original training data.
 
 
 ## Results
@@ -48,10 +49,11 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
 
-        For the two models used, the RandomOverSampler model slightly outperformed the Logistic Regression model, but not by much.
+        For the two models used, the Logistic Regression model slightly outperformed the Logistic Regression model, but not by much.
 
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
-        Performance depends on what we are trying to solve, which is which loans are high-risk. Because of this, the RandomOverSampler model permformed better.
+        Performance depends on what we are trying to solve, which is which loans are high-risk. Because of this, the Logistic Regression model permformed better   
+        because it was able to for 1% MORE of the high-risk loans.
 
 If you do not recommend any of the models, please justify your reasoning.
